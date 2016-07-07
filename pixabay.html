@@ -24,7 +24,7 @@
             // ключ при регистрации
             var key = '2879204-910216cdc1832ba2780f12b51';
             $('#photos').click(function () {
-                //слова в строке поиска должны быть закодированы как url - encodeURIComponent
+                //слова в строке закодированы как url - encodeURIComponent
                 var words = $('input[name="words"]').val();
                 $.ajax({
                     method: "GET",
